@@ -33,12 +33,8 @@ async function fetchData(props: {
 
     const res = await storyblokApi?.get(`cdn/stories/${slug[0]}`, sbParams)
 
-    console.log('res', res)
-
     return res
   } catch (e) {
-    console.log('e', e)
-
     return notFound()
   }
 }
