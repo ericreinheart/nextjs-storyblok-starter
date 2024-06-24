@@ -1,6 +1,6 @@
-# nextjs-starter
+# nextjs-storyblok-starter
 
-this is an opinionated next.js starter with typescript, eslint, prettier, tailwind.
+this is an opinionated next.js starter with typescript, eslint, prettier, tailwind, storyblok cms.
 
 ## getting started
 
@@ -20,6 +20,12 @@ then install with:
 
 ```bash
 pnpm install
+```
+
+then create `.env.local` with your storyblok api token:
+
+```
+STORYBLOK_API_TOKEN=xxx
 ```
 
 for development, run:
